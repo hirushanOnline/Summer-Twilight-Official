@@ -476,6 +476,45 @@ header .navbar {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+#banner6 {
+  padding: 105px 0;
+  background: url("../img/banner6.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+}
+#banner6:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(32, 35, 34, 0.7);
+}
+#banner6 .block {
+  text-align: center;
+}
+#banner6 .block h2 {
+  color: #fff;
+  padding-bottom: 5px;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}
+#banner6 .block p {
+  text-align: center;
+  color: #dfdfdf;
+  padding-bottom: 30px;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+
 #play-video {
   padding: 105px 0;
   background: url("../img/banner2.jpg") no-repeat;
@@ -660,20 +699,20 @@ header .navbar {
 }
 #pricing-table {
   padding: 100px 0 127px;
-  background: #3b3d3b;
+  background: #f9f9f9;
 }
 #pricing-table .title h2,
 #pricing-table .title p {
-  color: #fff;
+  color: rgb(34, 32, 32);
 }
 #pricing-table .title h2:before, #pricing-table .title h2:after {
-  background: #fff;
+  background: rgb(56, 56, 56);
 }
 #pricing-table .block {
-  color: #fff;
+  color: rgb(34, 32, 32);
 }
 #pricing-table .block ul {
-  border: 1px solid #fff;
+  border: 2px solid rgb(157, 209, 150);
   padding: 35px 0;
 }
 #pricing-table .block ul li {
@@ -699,18 +738,18 @@ header .navbar {
   font-weight: 300;
 }
 #pricing-table .block ul li:last-child {
-  color: #fff;
+  color: rgb(63, 63, 63);
   margin-top: 25px;
 }
 #pricing-table .block .btn-buy {
-  border-color: #fff;
+  border-color: rgb(51, 50, 50);
   border-radius: 25px;
-  color: #fff;
+  color: rgb(51, 50, 50);
   font-size: 16px;
   display: inline-block;
   font-weight: 600;
   transition: 0.3s;
-  background: #fff;
+  background: rgb(51, 50, 50);
   color: #80d6a3;
 }
 
@@ -723,7 +762,7 @@ header .navbar {
     transform: translate3d(0, -15px, 0);
 }
 #pricing-table .block:hover {
-  background:rgba(255, 255, 255, 0.17);
+  background:#80d6a288;
 }
 #pricing-table .block:hover .btn-buy {
   opacity: 1;
@@ -739,7 +778,7 @@ header .navbar {
 #contact-form form input,
 #contact-form form textarea {
   padding: 24px 20px 0;
-  border-color: #80d6a3;
+  border-color: ;
   border-radius: 5px;
   font-size: 14px;
   color: #97a0af;
@@ -862,7 +901,7 @@ footer p {
 
 #blog {
   padding:100px 0;
-  background: #f1f1f1;
+  background: #f9f9f9;
 }
 #blog-post .block {
   background: #fff;
